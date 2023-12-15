@@ -32,7 +32,7 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <ShoppingCartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/shopi-app/">
         <Navbar />
         <AppRoutes />
         <CheckoutSideMenu />
